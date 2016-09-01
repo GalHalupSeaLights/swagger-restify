@@ -1,5 +1,5 @@
 {
-  "name": "swagger-restify",
+  "name": "@sealights/swagger-restify",
   "description": "Document your restify rest api by jsDoc or yaml.",
   "version": "1.1.1",
   "author": "fliptoo <fliptoo.studio@gmail.com>, sposmen <sposmen@gmail.com>, eugene@takeaway.com",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')",
-    "postinstall": "bower install"
+    "postinstall-disabled": "bower install --allow-root"
   },
   "keywords": [
     "swagger",

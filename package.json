@@ -9,7 +9,7 @@
     "coffee-script": "*",
     "doctrine": "*",
     "js-yaml": "3.12.2",
-    "restify": "^2.8.5",
+    "restify": "^4.3.1",
     "swagger-tools": "^0.10.4",
     "underscore": "*"
   },

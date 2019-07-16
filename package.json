@@ -1,14 +1,14 @@
 {
   "name": "@sealights/swagger-restify",
   "description": "Document your restify rest api by jsDoc or yaml.",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "fliptoo <fliptoo.studio@gmail.com>, sposmen <sposmen@gmail.com>, eugene@takeaway.com",
   "main": "./index",
   "dependencies": {
     "async": "~0.2.7",
     "coffee-script": "*",
     "doctrine": "*",
-    "js-yaml": "3.12.2",
+    "js-yaml": "3.13.1",
     "restify": "^4.3.1",
     "swagger-tools": "^0.10.4",
     "underscore": "*"

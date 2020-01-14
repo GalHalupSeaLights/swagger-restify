@@ -9,7 +9,7 @@
     "coffee-script": "*",
     "doctrine": "*",
     "js-yaml": "3.13.1",
-    "restify": "^4.3.1",
+    "restify": "8.5.1",
     "swagger-tools": "^0.10.4",
     "underscore": "*"
   },
@@ -17,7 +17,7 @@
     "jshint": "*"
   },
   "scripts": {
-    "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')",
+    "test": "./node_modules/.bin/jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')",
     "postinstall-disabled": "bower install --allow-root"
   },
   "keywords": [
